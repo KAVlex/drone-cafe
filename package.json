@@ -1,12 +1,13 @@
 {
   "name": "kavlex-drone-cafe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "В рамках дипломного проект необходимо разработать систему автоматизации ресторана, в котором вместо официантов используются автономные дроны, а заказ размещается через простое веб-приложение.",
   "main": "index.js",
   "scripts": {
     "install": "npm install",
     "start": "node index",
-    "test": "mocha --recursive"
+    "test": "mocha --recursive",
+    "import": "node import"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,7 @@
     "angular-messages": "^1.6.1",
     "angular-resource": "^1.6.1",
     "angular-socket-io": "^0.7.0",
-    "angular-ui-router": "^1.0.0",
+    "@uirouter/angularjs": "^1.0.0",
     "angular-materialize": "^0.2.2",
     "materialize-css": "^0.98.0",
     "body-parser": "^1.16.0",
